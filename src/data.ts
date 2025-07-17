@@ -1,12 +1,12 @@
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
-  name: "YOUR_NAME",
-  role: "YOUR_ROLE",
+  name: "Andrea Barontini",
+  role: "Gameplay developer",
   introduction: "SHORT_INTRODUCTION",
   description: "TELL_ABOUT_YOURSELF",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
-  cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
+  cvUri: `${process.env.PUBLIC_URL}/files/my_cv.pdf`,
   links: {
     github: "https://github.com/NAME",
     itchIO: "https://NAME.itch.io",
